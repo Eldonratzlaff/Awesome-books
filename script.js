@@ -1,46 +1,46 @@
 // const addBook = document.getElementById(add-btn);
 
 // const removeBook = document.getElementById(remove-btn);
-const storedTitle = document.getElementById('stored-title')
-const storedAuthor = document.getElementById('stored-autor');
+const storedTitle = document.getElementById("stored-title");
+const storedAuthor = document.getElementById("stored-autor");
+const books = document.getElementById('books')
+const addBook = document.getElementById("form");
 
-
-let bookLists = [
+let arr = [
   
 ];
 
-const addBook = document.getElementById("form");
 addBook.addEventListener("submit", (e) => {
   e.preventDefault();
-  addBookFunc();
-});
-
-let addBookFunc = () =>{
-  let newObj = {};
+ 
   let title = document.getElementById("title").value;
   let author = document.getElementById("autor").value;
+  let obj = {};
 
-  newObj.id = bookLists.length;
-  newObj.title = title;
-  newObj.author = author;
-  bookLists.push( newObj);
+  obj.title = title;
+  obj.author = author;
 
-  // localStorage.setItem('books', JSON.stringify(bookLists));
- 
+  arr.push(obj)
+  localStorage.setItem("book", JSON.stringify(arr));
+  loadData();
+});
+
+function loadData(){
+  const data = JSON.parse(localStorage.getItem("book"));
+  data.forEach(element => {
+    const li = document.createElement('li');
+    li.innerHTML = `title: `+ element.title;
+    books.appendChild(li)
+  });
 }
+const data = JSON.parse(localStorage.getItem("book"));
+  data.forEach(element => {
+    const li = document.createElement('li');
+    li.innerHTML = `title: `+ element.title;
+    books.appendChild(li)
+  });
 
-
-let books =JSON.parse( localStorage.getItem('books'));
-bookLists.push(books)
-console.log(bookLists, books);
-
-// for (let i = 0; i < books.length; i++) {
-//   const element = books[i];
-//   storedTitle.innerHTML = element.title;
-//   storedAuthor.innerHTML = element.author
-// }
-
-
+  
 // //function if storage available
 // function storageAvailable(type) {
 //   let storage;
