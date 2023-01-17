@@ -1,9 +1,6 @@
-
 const form = document.getElementById('form');
 
-let arr = [
-
-];
+let arr = [];
 
 window.deleteBook = (id) => {
   const result = arr.filter((item) => item.id !== id);
