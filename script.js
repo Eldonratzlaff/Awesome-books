@@ -35,6 +35,7 @@ function addBook({ title, author }) {
 }
 
 
+
 window.addEventListener("DOMContentLoaded", (e) => {
   const ref = localStorage.getItem("booklist");
   if (ref) {
