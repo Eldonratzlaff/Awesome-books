@@ -20,7 +20,7 @@
 
 # 📖 Capstone #1 <a name="about-project"></a>
 
-'Capstone #1' is the first capstone project in the Microverse program first module, made for learning purposes.
+'Awesome book' is the project of pure js in the Microverse program 2nd module, made for learning purposes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,11 +50,7 @@
 
 You can checkout the running website here:
 
-- [Live Demo Link](https://jakariajishan.github.io/Capstone-1/)
-
-My presentation of the project in its current state:
-
-- [Presentation](https://www.loom.com/share/375f3bfb04f747a685053d7429744cda)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +88,10 @@ I do recommend this method given it is easier, but if you want you can make this
 Jakaria Jishan
 
 - GitHub: [@Jakaria jishan](https://github.com/JakariaJishan)
-- Twitter: [@Jakaria](https://twitter.com/jakaria_jishan)
+
+Eldon Ratzlaff
+
+- GitHub: [@Eldon Ratzlaff](https://github.com/Eldonratzlaff/Awesome-books/tree/awesome)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,8 +125,6 @@ If you like this project, please make sure to visit my page and checkout my othe
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Original design idea by [Cindy Shin in Behance](https://darkxdev.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)<tra/p>
 
