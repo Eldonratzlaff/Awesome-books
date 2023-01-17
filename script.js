@@ -15,8 +15,6 @@ form.addEventListener("submit", (e) => {
 });
 
 function renderBooks(books) {
-  // console.log(books);
-  // localStorage.setItem("booklist", JSON.stringify([...JSON.parse(localStorage.getItem("booklist") || "[]"), arr]));
   localStorage.setItem("booklist", JSON.stringify(arr));
   let div = document.getElementById("books");
   let ul = document.createElement("ul");
@@ -36,19 +34,6 @@ function addBook({ title, author }) {
   renderBooks(books);
 }
 
-function deleteBook(id) {
-  const ref = localStorage.getItem("booklist");
-  if (ref) {
-    bookItems = JSON.parse(ref);
-    arr = bookItems;
-    let removeItems = arr.filter((item) => item.id !== id);
-    localStorage.setItem("booklist", JSON.stringify(removeItems));
-    bookItems.forEach((t) => {
-      renderBooks(t);
-    });
-   
-  }
-}
 
 window.addEventListener("DOMContentLoaded", (e) => {
   const ref = localStorage.getItem("booklist");
