@@ -18,7 +18,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone #1 <a name="about-project"></a>
+# 📖 Awesome Book <a name="about-project"></a>
 
 'Awesome book' is the project of pure js in the Microverse program 2nd module, made for learning purposes.
 
@@ -50,7 +50,7 @@
 
 You can checkout the running website here:
 
-- [Live Demo Link]()
+- [Live Demo Link](https://github.com/Eldonratzlaff/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +83,7 @@ I do recommend this method given it is easier, but if you want you can make this
 
 <!-- AUTHOR -->
 
-## 👤 Author <a name="author"></a>
+## 👤 Authors <a name="author"></a>
 
 Jakaria Jishan
 
@@ -91,7 +91,7 @@ Jakaria Jishan
 
 Eldon Ratzlaff
 
-- GitHub: [@Eldon Ratzlaff](https://github.com/Eldonratzlaff/Awesome-books/tree/awesome)
+- GitHub: [@Eldon Ratzlaff](https://github.com/Eldonratzlaff)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
