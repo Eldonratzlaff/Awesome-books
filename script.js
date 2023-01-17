@@ -34,7 +34,14 @@ function addBook({ title, author }) {
   renderBooks(books);
 }
 
+function deleteBook(id) {
 
+  let result = arr.filter(item => item.id !== id);
+  arr = result;
+  localStorage.setItem("booklist", JSON.stringify(arr));
+  window.location.reload()
+  
+}
 
 window.addEventListener("DOMContentLoaded", (e) => {
   const ref = localStorage.getItem("booklist");
