@@ -5,12 +5,35 @@
 }
 
 body {
+  width: 50vw;
+  border: 3px solid black;
   margin: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
+header{
+  border: 3px solid black;
+  width: 40vw;
+  height: 80px;
+}
+nav{
+  font-size: 16px;
+  margin: 6px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  width: 40vw;
+  height: 39px;
 
+}
+.line{
+width: 3px;
+height: 25px;
+  border-left : 3px solid black;
+}
 .books {
   border: 4px solid black;
   padding: 10px;
@@ -47,4 +70,9 @@ input {
   float: right;
   border: 2px solid black;
   box-shadow: 3px 4px black;
+}
+
+.copyright{
+  border: 3px solid black;
+  width: 40vw;
 }
