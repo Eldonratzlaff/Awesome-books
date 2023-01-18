@@ -11,14 +11,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-header{
+
+header {
   border: 3px solid black;
   width: 40vw;
   height: 80px;
 }
-nav{
+
+nav {
   font-size: 16px;
   margin: 6px 0 0 0;
   display: flex;
@@ -27,19 +28,22 @@ nav{
   border: 3px solid black;
   width: 40vw;
   height: 39px;
-
 }
-.nav-h2{
+
+.nav-h2 {
   padding: 0 10vw 0 1vw;
 }
-.line{
-width: 3px;
-height: 25px;
-  border-left : 3px solid black;
+
+.line {
+  width: 3px;
+  height: 25px;
+  border-left: 3px solid black;
 }
-#contact{
+
+#contact {
   margin-right: 1vw;
 }
+
 .books {
   border: 4px solid black;
   padding: 10px;
@@ -57,6 +61,14 @@ li {
   list-style: none;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+#contact-page {
+  display: none;
+}
+
+#form {
+  display: none;
 }
 
 button {
@@ -78,13 +90,13 @@ input {
   box-shadow: 3px 4px black;
 }
 
-.copyright{
-
+.copyright {
   border: 3px solid black;
   width: 40vw;
   height: 35px;
 }
-.foot{
+
+.foot {
   margin: 3px;
   border: 3px solid black;
   width: 40vw;

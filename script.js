@@ -9,6 +9,8 @@ class UiBooks {
     const book = new Library(title, author, id);
     this.collection.push(book);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
+    document.getElementById('title').value = '';
+    document.getElementById('author').value = '';
   }
 
   removeBook(id) {
@@ -46,6 +48,26 @@ form.addEventListener('submit', (e) => {
   const author = document.getElementById('author').value;
   bookMaker.addBookToLibrary(title, author, Date.now());
   bookMaker.displayBook();
+});
+
+// dom manipulation for spa
+
+document.getElementById('list').addEventListener('click', () => {
+  document.getElementById('list-book').style.display = 'block';
+  document.getElementById('form').style.display = 'none';
+  document.getElementById('contact-page').style.display = 'none';
+});
+
+document.getElementById('add-new').addEventListener('click', () => {
+  document.getElementById('list-book').style.display = 'none';
+  document.getElementById('form').style.display = 'block';
+  document.getElementById('contact-page').style.display = 'none';
+});
+
+document.getElementById('contact').addEventListener('click', () => {
+  document.getElementById('list-book').style.display = 'none';
+  document.getElementById('form').style.display = 'none';
+  document.getElementById('contact-page').style.display = 'block';
 });
 
 export default UiBooks;
